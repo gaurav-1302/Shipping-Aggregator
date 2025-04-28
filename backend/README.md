@@ -61,10 +61,12 @@ This project contains the backend Cloud Functions for the Umaxship Shipping and 
     razorpay.key_secret="YOUR_RAZORPAY_SECRET" \
     delhivery_b2b_label_callback.url="YOUR_CALLBACK_URL_FOR_B2B_LABELS" \
     cashfree.webhook_secret="YOUR_CASHFREE_WEBHOOK_SECRET"
-
-    # After setting, deploy your functions for the changes to take effect:
-firebase deploy --only functions
     ```
+
+# After setting, deploy your functions for the changes to take effect:
+```bash
+firebase deploy --only functions
+```
 
 4.  **Credential Configuration (Important Security Note):**
     *   **Crucially, the current code stores sensitive API keys and credentials directly within `index.js`. This is highly insecure and not recommended for production.**
