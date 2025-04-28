@@ -1,0 +1,3 @@
+corsHandler(req, res, async () => {
+
+});

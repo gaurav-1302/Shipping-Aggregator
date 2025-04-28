@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-functions": "^5.0.1",
+    "form-data": "^4.0.0"
+  }
+}
