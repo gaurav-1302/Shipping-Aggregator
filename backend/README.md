@@ -16,13 +16,6 @@ This project contains the backend Cloud Functions for the Umaxship Shipping and 
 *   **User Management:** Retrieving aggregated user details.
 *   **Token Management:** Automatically refreshing API authentication tokens for courier services.
 
-## Live Demo & Mobile App
-
-**Please note:** This codebase is primarily intended for **showcase purposes**.
-
-*   To experience the live Umaxship platform, please visit: **[umaxship.com](https://www.umaxship.com)**
-*   A mobile application for Umaxship is also available on the Google Play Store: **[Umaxship on Google Play](https://play.google.com/store/apps/details?id=com.atirun.umaxship)**
-
 ## Features
 
 *   **Multi-Courier Integration:** Seamlessly works with Delhivery (B2C & B2B), XpressBees, and Shiprocket.
